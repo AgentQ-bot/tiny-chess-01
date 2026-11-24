@@ -8,7 +8,7 @@ A 4 KB Python chess engine: 0x88 board, alpha-beta with transposition table, qui
 
 ## Submitted version
 
-History heuristic + LMR (reduce-3) on the classic material + piece-square eval, fixed 30,000-node budget per iteration. Local official-scorer grade: mean Elo 1307 over 18 games (9W/1D/8L), packed `main.py` 3,766 bytes. Perft verified against python-chess references.
+History heuristic + LMR (reduce-3) on the classic material + piece-square eval, fixed 30,000-node budget per iteration. Local official-scorer grade: mean Elo 1307 over 18 games (9W/1D/8L), packed `main.py` 4,073 bytes. Perft verified against python-chess references.
 
 ## Run it
 
